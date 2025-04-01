@@ -7,16 +7,16 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/evrone/go-clean-template/config"
-	amqprpc "github.com/evrone/go-clean-template/internal/controller/amqp_rpc"
-	v1 "github.com/evrone/go-clean-template/internal/controller/http"
-	"github.com/evrone/go-clean-template/internal/repo/persistent"
-	"github.com/evrone/go-clean-template/internal/repo/webapi"
-	"github.com/evrone/go-clean-template/internal/usecase/translation"
-	"github.com/evrone/go-clean-template/pkg/httpserver"
-	"github.com/evrone/go-clean-template/pkg/logger"
-	"github.com/evrone/go-clean-template/pkg/postgres"
-	"github.com/evrone/go-clean-template/pkg/rabbitmq/rmq_rpc/server"
+	"github.com/keshvan/go-sstu-forum/config"
+	amqprpc "github.com/keshvan/go-sstu-forum/internal/controller/amqp_rpc"
+	v1 "github.com/keshvan/go-sstu-forum/internal/controller/http"
+	"github.com/keshvan/go-sstu-forum/internal/repo/persistent"
+	"github.com/keshvan/go-sstu-forum/internal/repo/webapi"
+	"github.com/keshvan/go-sstu-forum/internal/usecase/translation"
+	"github.com/keshvan/go-sstu-forum/pkg/httpserver"
+	"github.com/keshvan/go-sstu-forum/pkg/logger"
+	"github.com/keshvan/go-sstu-forum/pkg/postgres"
+	"github.com/keshvan/go-sstu-forum/pkg/rabbitmq/rmq_rpc/server"
 )
 
 // Run creates objects via constructors.

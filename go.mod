@@ -1,4 +1,4 @@
-module github.com/evrone/go-clean-template
+module github.com/keshvan/go-sstu-forum
 
 go 1.23
 

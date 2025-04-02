@@ -1,6 +1,8 @@
 module github.com/keshvan/go-sstu-forum
 
-go 1.23
+go 1.23.0
+
+toolchain go1.23.6
 
 require (
 	github.com/Conight/go-googletrans v0.2.4
@@ -21,7 +23,10 @@ require (
 	go.uber.org/mock v0.5.0
 )
 
-require google.golang.org/genproto/googleapis/rpc v0.0.0-20250115164207-1a7da9e5054f // indirect
+require (
+	go.uber.org/multierr v1.11.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250115164207-1a7da9e5054f // indirect
+)
 
 require (
 	github.com/KyleBanks/depth v1.2.1 // indirect
@@ -68,7 +73,7 @@ require (
 	golang.org/x/crypto v0.33.0 // indirect
 	golang.org/x/net v0.35.0 // indirect
 	golang.org/x/sync v0.11.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/tools v0.24.0 //
 	google.golang.org/grpc v1.71.1 //indirect
